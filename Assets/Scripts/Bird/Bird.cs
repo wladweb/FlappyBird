@@ -17,6 +17,11 @@ public class Bird : MonoBehaviour
         _mover.ResetBird();
     }
 
+    public void IncreaseScore()
+    {
+        _score++;
+    }
+
     public void Die()
     {
         Debug.Log("Died");
