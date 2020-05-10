@@ -20,6 +20,5 @@ public class BirdCollisionHandler : MonoBehaviour
         {
             _bird.Die();
         }
-
     }
 }
